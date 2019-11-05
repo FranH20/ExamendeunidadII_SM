@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExamenUnidadIIHuichi</string>
+    <string name="card_title">Oferta de reserva online</string>
+    <string name="card_content">Al hacer tus reservas online, te brindamos GRATIS un Cóctel de Bienvenida para cada persona en el restaurante de tu preferencia. Haz tus Reservas Vía Inbox.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

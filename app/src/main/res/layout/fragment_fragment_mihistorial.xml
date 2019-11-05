@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.fragment_mihistorial">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CUPONES"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/textocode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese el codigo aqui"
+                    android:inputType="numberDecimal"></EditText>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/btnCanjearCodigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blanco"
+                        android:layout_margin="5dp"
+                        android:text="Agregar"
+                        android:textSize="20dp"
+                        android:background="@drawable/formaboton"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/btnQR"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/blanco"
+                        android:background="@drawable/formaboton"
+
+                        android:text="AGREGAR POR QR"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"></androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+            <Button
+                android:id="@+id/verpremios"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/formaboton"
+                android:layout_margin="15dp"
+                android:text="Ver los premios"
+                android:textColor="@color/blanco"
+                android:textSize="20dp"
+                ></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
