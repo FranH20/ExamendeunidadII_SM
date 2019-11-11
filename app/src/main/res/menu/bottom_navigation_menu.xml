@@ -9,6 +9,9 @@
     <item android:title="Juego"
         android:id="@+id/about"
         android:icon="@drawable/ic_phone_android_black_24dp"/>
+    <item android:title="Reserva"
+        android:id="@+id/reserva"
+        android:icon="@drawable/ic_room_service_black_24dp"/>
     <item android:title="Ubicacion"
         android:id="@+id/ubicacion"
         android:icon="@drawable/ic_pin_drop_black_24dp"/>

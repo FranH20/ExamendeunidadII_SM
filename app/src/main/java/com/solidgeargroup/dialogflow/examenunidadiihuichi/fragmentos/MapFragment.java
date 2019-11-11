@@ -45,14 +45,17 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         gMap = googleMap;
 
-        LatLng aqui = new LatLng(-18.0064826, -18.0064826);
-
+        LatLng aqui = new LatLng(-18.006555, -70.244756);
         CameraPosition cameraPosition = new CameraPosition.Builder()
                 .target(aqui)
-                .zoom(14)//zoom
+                .zoom(15)//zoom
                 .bearing(30)//inclinacion
                 .build();
+        LatLng aqui2 = new LatLng(-18.012173, -70.248737);
         gMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.drawable.markeruros)).position(aqui).title("Restaurante los Uros"));
+        gMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.drawable.markeruros)).position(aqui2).title("Restaurante los Uros"));
         gMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+
+
     }
 }

@@ -43,28 +43,28 @@ public class listapremios extends AppCompatActivity implements OnRecyclerViewIte
     public void AgregarItems() {
         mispromociones.add(new promocion("Entrada gratis",
                 "30 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
         mispromociones.add(new promocion("Sopa y cremas",
                 "40 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
         mispromociones.add(new promocion("Ensaladas",
                 "50 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
         mispromociones.add(new promocion("Piqueos",
                 "60 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
         mispromociones.add(new promocion("Carnes a la piedra",
                 "170 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
         mispromociones.add(new promocion("Criollo e internacional",
                 "160 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
         mispromociones.add(new promocion("Bebidas y Cervezas",
                 "110 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
         mispromociones.add(new promocion("Postres",
                 "80 puntos",
-                R.drawable.star));
+                R.drawable.ic_restaurant_black_24dp));
     }
 
     @Override

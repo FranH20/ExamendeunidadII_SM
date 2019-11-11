@@ -12,6 +12,7 @@ import com.solidgeargroup.dialogflow.examenunidadiihuichi.fragmentos.MapFragment
 import com.solidgeargroup.dialogflow.examenunidadiihuichi.fragmentos.fragment_aboutUs;
 import com.solidgeargroup.dialogflow.examenunidadiihuichi.fragmentos.fragment_home;
 import com.solidgeargroup.dialogflow.examenunidadiihuichi.fragmentos.fragment_mihistorial;
+import com.solidgeargroup.dialogflow.examenunidadiihuichi.fragmentos.fragment_reservacion;
 
 public class FrontEnd extends AppCompatActivity {
 
@@ -50,6 +51,8 @@ public class FrontEnd extends AppCompatActivity {
                         case R.id.ubicacion:
                             selectedFragment = new MapFragment();
                             break;
+                        case R.id.reserva:
+                            selectedFragment = new fragment_reservacion();
                     }
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
